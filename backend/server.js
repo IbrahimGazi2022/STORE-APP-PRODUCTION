@@ -22,7 +22,7 @@ const app = express();
 app.use(express.json());
 app.use(morgan("dev"));
 app.use(cors({
-  origin: ["https://store-app-ibrahim.vercel.app/"], // this will be frontend url
+  origin: ["https://store-app-ibrahim.vercel.app"], // this will be frontend url
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
