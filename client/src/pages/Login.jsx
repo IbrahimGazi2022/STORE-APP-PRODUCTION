@@ -11,8 +11,7 @@ const Login = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
     // api url
-    const apiUrl = import.meta.env.VITE_API_URL;
-    console.log(apiUrl)     
+    const apiUrl = import.meta.env.VITE_API_URL;     
 
     const onFinish = (values) => {
         dispatch({ type: 'showLoading' });
