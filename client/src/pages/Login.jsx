@@ -12,7 +12,7 @@ const Login = () => {
     const navigate = useNavigate();
     // api url
     const apiUrl = import.meta.env.VITE_API_URL;
-    console.log(apiUrl) 
+    console.log(apiUrl)     
 
     const onFinish = (values) => {
         dispatch({ type: 'showLoading' });
