@@ -15,7 +15,7 @@ const Items = () => {
 
   const getAllItems = () => {
     dispatch({ type: "showLoading" });
-    axios.get(`${apiUrl}/api/v1/items/get-all-items`).then((response) => {
+    axios.get(`${apiUrl}/items/get-all-items`).then((response) => {
       setItemsData(response.data);
       dispatch({ type: "hideLoading" });
     }).catch((error) => {
