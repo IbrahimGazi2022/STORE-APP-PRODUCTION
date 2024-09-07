@@ -37,10 +37,10 @@ const Login = () => {
                 <Col lg={8} xs={22}>
                     <Form layout="vertical" onFinish={onFinish}>
                         <h2>Login</h2>
-                        <Form.Item name="userId" label="User ID">
+                        <Form.Item name="userId" label="User ID ( ibrahim1993)">
                             <Input type='text' />
                         </Form.Item>
-                        <Form.Item name="password" label="Password">
+                        <Form.Item name="password" label="Password ( 1993 )">
                             <Input type='password' />
                         </Form.Item>
 
